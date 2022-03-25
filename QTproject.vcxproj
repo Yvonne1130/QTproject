@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{06E6FBE2-7432-44F5-B667-BA83E20E1764}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="01firstproject\main.cpp" />
+    <ClCompile Include="01firstproject\mypushbutton.cpp" />
+    <ClCompile Include="01firstproject\mywidget.cpp" />
+    <ClCompile Include="01_smallwidget\main.cpp" />
+    <ClCompile Include="01_smallwidget\smallwidget.cpp" />
+    <ClCompile Include="01_smallwidget\widget.cpp" />
+    <ClCompile Include="02_qtevent\main.cpp" />
+    <ClCompile Include="02_qtevent\mylable.cpp" />
+    <ClCompile Include="02_qtevent\widget.cpp" />
+    <ClCompile Include="02_qtsource\main.cpp" />
+    <ClCompile Include="02_qtsource\mainwindow.cpp" />
+    <ClCompile Include="02_signalandslot\main.cpp" />
+    <ClCompile Include="02_signalandslot\student.cpp" />
+    <ClCompile Include="02_signalandslot\teacher.cpp" />
+    <ClCompile Include="02_signalandslot\widget.cpp" />
+    <ClCompile Include="03qmainwindow\main.cpp" />
+    <ClCompile Include="03qmainwindow\mainwindow.cpp" />
+    <ClCompile Include="03_qdialog\main.cpp" />
+    <ClCompile Include="03_qdialog\mainwindow.cpp" />
+    <ClCompile Include="03_qpainter\main.cpp" />
+    <ClCompile Include="03_qpainter\widget.cpp" />
+    <ClCompile Include="04_layout\main.cpp" />
+    <ClCompile Include="04_layout\mainwindow.cpp" />
+    <ClCompile Include="05_qtcontrol\main.cpp" />
+    <ClCompile Include="05_qtcontrol\widget.cpp" />
+    <ClCompile Include="build-01firstproject-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mypushbutton.cpp" />
+    <ClCompile Include="build-01firstproject-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mywidget.cpp" />
+    <ClCompile Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_smallwidget.cpp" />
+    <ClCompile Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_widget.cpp" />
+    <ClCompile Include="build-02_qtevent-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mylable.cpp" />
+    <ClCompile Include="build-02_qtevent-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_widget.cpp" />
+    <ClCompile Include="build-02_qtsource-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainwindow.cpp" />
+    <ClCompile Include="build-02_qtsource-desktop_qt_5_14_2_mingw_64_bit-debug\debug\qrc_res.cpp" />
+    <ClCompile Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_student.cpp" />
+    <ClCompile Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_teacher.cpp" />
+    <ClCompile Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_widget.cpp" />
+    <ClCompile Include="build-03qmainwindow-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainwindow.cpp" />
+    <ClCompile Include="build-03_qdialog-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainwindow.cpp" />
+    <ClCompile Include="build-03_qpainter-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_widget.cpp" />
+    <ClCompile Include="build-04_layout-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainwindow.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_chooselevelscene.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_dataconfig.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainscene.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mycoin.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mypushbotton.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_playscene.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\qrc_res.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_chooselevelscene.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_dataconfig.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_mainscene.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_mycoin.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_mypushbotton.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_playscene.cpp" />
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\qrc_res.cpp" />
+    <ClCompile Include="coinflip\chooselevelscene.cpp" />
+    <ClCompile Include="coinflip\dataconfig.cpp" />
+    <ClCompile Include="coinflip\main.cpp" />
+    <ClCompile Include="coinflip\mainscene.cpp" />
+    <ClCompile Include="coinflip\mycoin.cpp" />
+    <ClCompile Include="coinflip\mypushbotton.cpp" />
+    <ClCompile Include="coinflip\playscene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01firstproject\mypushbutton.h" />
+    <ClInclude Include="01firstproject\mywidget.h" />
+    <ClInclude Include="01_smallwidget\smallwidget.h" />
+    <ClInclude Include="01_smallwidget\widget.h" />
+    <ClInclude Include="02_qtevent\mylable.h" />
+    <ClInclude Include="02_qtevent\widget.h" />
+    <ClInclude Include="02_qtsource\mainwindow.h" />
+    <ClInclude Include="02_signalandslot\student.h" />
+    <ClInclude Include="02_signalandslot\teacher.h" />
+    <ClInclude Include="02_signalandslot\widget.h" />
+    <ClInclude Include="03qmainwindow\mainwindow.h" />
+    <ClInclude Include="03_qdialog\mainwindow.h" />
+    <ClInclude Include="03_qpainter\widget.h" />
+    <ClInclude Include="04_layout\mainwindow.h" />
+    <ClInclude Include="05_qtcontrol\widget.h" />
+    <ClInclude Include="build-01firstproject-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\ui_smallwidget.h" />
+    <ClInclude Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\ui_widget.h" />
+    <ClInclude Include="build-02_qtevent-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-02_qtevent-desktop_qt_5_14_2_mingw_64_bit-debug\ui_widget.h" />
+    <ClInclude Include="build-02_qtsource-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-02_qtsource-desktop_qt_5_14_2_mingw_64_bit-debug\ui_mainwindow.h" />
+    <ClInclude Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\ui_widget.h" />
+    <ClInclude Include="build-03qmainwindow-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-03_qdialog-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-03_qdialog-desktop_qt_5_14_2_mingw_64_bit-debug\ui_mainwindow.h" />
+    <ClInclude Include="build-03_qpainter-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-03_qpainter-desktop_qt_5_14_2_mingw_64_bit-debug\ui_widget.h" />
+    <ClInclude Include="build-04_layout-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-04_layout-desktop_qt_5_14_2_mingw_64_bit-debug\ui_mainwindow.h" />
+    <ClInclude Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h" />
+    <ClInclude Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\ui_mainscene.h" />
+    <ClInclude Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_predefs.h" />
+    <ClInclude Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\ui_mainscene.h" />
+    <ClInclude Include="coinflip\chooselevelscene.h" />
+    <ClInclude Include="coinflip\dataconfig.h" />
+    <ClInclude Include="coinflip\mainscene.h" />
+    <ClInclude Include="coinflip\mycoin.h" />
+    <ClInclude Include="coinflip\mypushbotton.h" />
+    <ClInclude Include="coinflip\playscene.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

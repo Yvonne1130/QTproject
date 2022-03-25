@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01firstproject\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01firstproject\mypushbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01firstproject\mywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01_smallwidget\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01_smallwidget\smallwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01_smallwidget\widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_qtevent\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_qtevent\mylable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_qtevent\widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_qtsource\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_qtsource\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_signalandslot\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_signalandslot\student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_signalandslot\teacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_signalandslot\widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="03qmainwindow\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="03qmainwindow\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="03_qdialog\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="03_qdialog\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="03_qpainter\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="03_qpainter\widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="04_layout\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="04_layout\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="05_qtcontrol\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="05_qtcontrol\widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-01firstproject-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mypushbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-01firstproject-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_smallwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-02_qtevent-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mylable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-02_qtevent-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-02_qtsource-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-02_qtsource-desktop_qt_5_14_2_mingw_64_bit-debug\debug\qrc_res.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_teacher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-03qmainwindow-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-03_qdialog-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-03_qpainter-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-04_layout-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_chooselevelscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_dataconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mainscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mycoin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_mypushbotton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_playscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\qrc_res.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_chooselevelscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_dataconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_mainscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_mycoin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_mypushbotton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_playscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\qrc_res.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coinflip\chooselevelscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coinflip\dataconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coinflip\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coinflip\mainscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coinflip\mycoin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coinflip\mypushbotton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coinflip\playscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01firstproject\mypushbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="01firstproject\mywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="01_smallwidget\smallwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="01_smallwidget\widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="02_qtevent\mylable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="02_qtevent\widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="02_qtsource\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="02_signalandslot\student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="02_signalandslot\teacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="02_signalandslot\widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="03qmainwindow\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="03_qdialog\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="03_qpainter\widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="04_layout\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="05_qtcontrol\widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-01firstproject-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\ui_smallwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\ui_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-01_smallwidget-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-02_qtevent-desktop_qt_5_14_2_mingw_64_bit-debug\ui_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-02_qtevent-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-02_qtsource-desktop_qt_5_14_2_mingw_64_bit-debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-02_qtsource-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\ui_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-02_signalandslot-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-03qmainwindow-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-03_qdialog-desktop_qt_5_14_2_mingw_64_bit-debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-03_qdialog-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-03_qpainter-desktop_qt_5_14_2_mingw_64_bit-debug\ui_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-03_qpainter-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-04_layout-desktop_qt_5_14_2_mingw_64_bit-debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-04_layout-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\ui_mainscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-debug\debug\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\ui_mainscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build-coinflip-desktop_qt_5_14_2_mingw_64_bit-release\release\moc_predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coinflip\chooselevelscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coinflip\dataconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coinflip\mainscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coinflip\mycoin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coinflip\mypushbotton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coinflip\playscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
